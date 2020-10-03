@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Kerala tourism</title>
+	<link rel="stylesheet" type="text/css" href="../static/css/feedback.css"/>
+
+</head>
+
+<body>
+
+	<header>
+        <img src="../static/images/kerala-logo-26566D9734-seeklogo.com.png" alt="logo">
+          <h1>KERALA TOURISM</h1>
+        <br><br>
+        
+        <nav>
+			<a href="/">HOME</a>
+			<a href="about">ABOUT</a>
+         <a href="tourist">TOURIST PLACES </a>
+			<a href="feedback" class = "active">FEEDBACK</a>
+		</nav>
+   </header>
+<h2>We would like to hear from you.Please take a momemt to share your experience with us..... </h2><br><br>
+<div class="container">
+	<form action="submit">
+	  <label for="fname">Enter your name:</label>
+	  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+	  <label for="lname">Enter your E-mail:</label>
+	  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+	  <label for="country">How is our package:</label>
+	  <select id="country" name="country">
+		<option value="option">SELECT</option>
+		<option value="excellent">Excellent</option>
+		<option value="verygood">Very good</option>
+		<option value="good">Good</option>
+		<option value="poor">Poor</option>
+	  </select>
+	  <label for="fname">Is it usable:</label>
+	  <input type="radio" name="YES"/>YES &nbsp&nbsp
+	  <input type="radio" name="NO"/>NO
+	  <BR><BR>
+	  <label for="subject">Comment</label>
+	  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+	  <a href="http://www.usaultimate.org/index"><input type="submit" value="Submit"></a> 
+
+	</form>
+  </div>
+</body>
+</html>
